@@ -1,12 +1,13 @@
 # pin2pin
 ---
 
-This project is a learning project building a simplified implementation of a one-way/half-duplex UART protocol to facilitate
-communicaiton between two arduino microcontrollers. It is a bit-banging implementation
-and as such does not rely on the available UART TX/RX pins on the Arduino Uno R3. 
+This is a learning project, building a simplified implementation of a
+one-way/half-duplex UART protocol to enable communication  between two separate arduino microcontrollers. 
+
+It is a bit-banging implementation and does not rely on the UART TX/RX pins on the Arduino Uno R3. 
 
 This is absolutely a "re-inventing the wheel" project and is not meant to solve any unsolved
-problems but rather a to build/understand, among other things:
+problems but rather a way to build/understand, among other things:
 
 - C low-level data handling (addressing, bitmasking and bit level logic)
 - debugging hardware projects 
